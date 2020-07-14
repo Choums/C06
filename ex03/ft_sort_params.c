@@ -6,7 +6,7 @@
 /*   By: caidel <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 14:59:02 by caidel            #+#    #+#             */
-/*   Updated: 2020/07/14 17:27:40 by caidel           ###   ########.fr       */
+/*   Updated: 2020/07/14 17:46:18 by caidel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,10 +46,10 @@ int		main(int argc, char *argv[])
 	char *swap;
 
 	i = 0;
-	while (i < argc)
+	while (i < argc - 1)
 	{
 		j = 0;
-		while (j < argc - 1)
+		while (j < (argc - i))
 		{
 			if (ft_strcmp(argv[i], argv[i + 1]) > 0) 
 			{
