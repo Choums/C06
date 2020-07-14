@@ -6,7 +6,7 @@
 /*   By: caidel <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 14:59:02 by caidel            #+#    #+#             */
-/*   Updated: 2020/07/14 18:30:07 by caidel           ###   ########.fr       */
+/*   Updated: 2020/07/14 18:31:36 by caidel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ void	ft_print(int argc, char *argv[])
 		ft_putchar('\n');
 		i++;
 	}
-
 }
 
 int		ft_strcmp(char *s1, char *s2)
