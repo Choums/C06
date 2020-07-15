@@ -6,7 +6,7 @@
 /*   By: caidel <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 14:28:53 by caidel            #+#    #+#             */
-/*   Updated: 2020/07/14 19:29:18 by caidel           ###   ########.fr       */
+/*   Updated: 2020/07/15 12:02:31 by caidel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,6 @@ int		main(int argc, char *argv[])
 {
 	(void)argc;
 	ft_putstr(argv[0]);
+	ft_putstr("\n");
 	return (0);
 }
